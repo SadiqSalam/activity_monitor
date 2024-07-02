@@ -15,8 +15,8 @@ def fetch_time_spent():
     conn = mysql.connector.connect(
         host = "localhost", 
         username="root", 
-        password="password", 
-        database="time_monitor")
+        password="", 
+        database="")
     cursor = conn.cursor()
 
     
